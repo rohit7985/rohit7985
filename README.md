@@ -24,23 +24,29 @@
 ⚙️ Tools: Git, Composer, Docker
 🔐 Others: REST APIs, Authentication, Debugging, Optimization
 
-<div align="center">
 
-  <h3>📈 GitHub Stats</h3>
-  
-  <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px;">
-    <img src="https://github-readme-stats.vercel.app/api?username=rohit7985&show_icons=true&theme=radical" alt="GitHub Stats" />
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=rohit7985&theme=radical" alt="GitHub Streak" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rohit7985&layout=compact&theme=radical" alt="Top Languages" />
-  </div>
+<h3 align="center">📈 GitHub Stats</h3>
 
-  <br><br>
+<table align="center">
+  <tr>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api?username=rohit7985&show_icons=true&theme=radical" alt="GitHub Stats" />
+    </td>
+    <td>
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=rohit7985&theme=radical" alt="GitHub Streak" />
+    </td>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rohit7985&layout=compact&theme=radical" alt="Top Languages" />
+    </td>
+  </tr>
+</table>
 
-  <h3>📊 GitHub Activity Graph</h3>
-  
+<h3 align="center">📊 GitHub Activity Graph</h3>
+
+<p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=rohit7985&theme=react-dark&hide_border=true&area=true" alt="GitHub Activity Graph" />
+</p>
 
-</div>
 
 
 
