@@ -28,11 +28,11 @@
 
   <h3>📈 GitHub Stats</h3>
   
-  <img src="https://github-readme-stats.vercel.app/api?username=rohit7985&show_icons=true&theme=radical" alt="GitHub Stats" />
-  <br><br>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=rohit7985&theme=radical" alt="GitHub Streak" />
-  <br><br>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rohit7985&layout=compact&theme=radical" alt="Top Languages" />
+  <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px;">
+    <img src="https://github-readme-stats.vercel.app/api?username=rohit7985&show_icons=true&theme=radical" alt="GitHub Stats" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=rohit7985&theme=radical" alt="GitHub Streak" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rohit7985&layout=compact&theme=radical" alt="Top Languages" />
+  </div>
 
   <br><br>
 
@@ -41,6 +41,7 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=rohit7985&theme=react-dark&hide_border=true&area=true" alt="GitHub Activity Graph" />
 
 </div>
+
 
 
 📫 Let’s Connect
