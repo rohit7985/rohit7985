@@ -14,8 +14,6 @@
 
 ⚡ Fun fact: "Code is like humor. When you have to explain it, it’s bad."
 
-
-
 🛠️ Tech Stack
 
 💻 Languages: PHP, JavaScript, SQL
@@ -23,6 +21,8 @@
 🛢️ Databases: MySQL, MariaDB
 ⚙️ Tools: Git, Composer, Docker
 🔐 Others: REST APIs, Authentication, Debugging, Optimization
+
+
 
 
 <h3 align="center">📈 GitHub Stats</h3>
