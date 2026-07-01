@@ -3,7 +3,7 @@
 <img src="assets/banner.svg" alt="Rohit Kumar Patel — AI-Integrated Backend Engineer" width="100%" />
 
 <img src="https://readme-typing-svg.demolab.com/?lines=Shipping+Laravel+%2B+LLM+Systems;Enterprise-Grade+REST+APIs;RAG-Ready+by+Design;4%2B+Years%2C+Zero+Downtime+Mindset&font=Fira%20Code&center=true&width=520&height=45&color=f5a623&vCenter=true&size=20" alt="Typing SVG" />
-
+<br/>
 <img src="https://komarev.com/ghpvc/?username=rohit7985&label=Profile%20views&color=f5a623&style=for-the-badge" alt="Profile views" />
 <img src="https://img.shields.io/badge/Status-Open%20to%20Work-34d399?style=for-the-badge" alt="Open to work" />
 
