@@ -1,0 +1,71 @@
+<svg width="1200" height="220" viewBox="0 0 1200 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0d16"/>
+      <stop offset="100%" stop-color="#131a2b"/>
+    </linearGradient>
+    <radialGradient id="g1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff2d20" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#ff2d20" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f5a623" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#f5a623" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g3" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="glass2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02"/>
+    </linearGradient>
+    <linearGradient id="numGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff6a55"/>
+      <stop offset="100%" stop-color="#ff2d20"/>
+    </linearGradient>
+    <linearGradient id="numGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffd166"/>
+      <stop offset="100%" stop-color="#f5a623"/>
+    </linearGradient>
+    <linearGradient id="numGrad3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7dd3fc"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <filter id="blurLg2" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+    <filter id="cardShadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="220" fill="url(#bg2)"/>
+  <circle cx="150" cy="110" r="150" fill="url(#g1)" filter="url(#blurLg2)"/>
+  <circle cx="600" cy="110" r="150" fill="url(#g2)" filter="url(#blurLg2)"/>
+  <circle cx="1050" cy="110" r="150" fill="url(#g3)" filter="url(#blurLg2)"/>
+
+  <!-- card 1 -->
+  <g filter="url(#cardShadow)">
+    <rect x="40" y="30" width="340" height="160" rx="20" fill="url(#glass2)" stroke="#ffffff" stroke-opacity="0.12"/>
+  </g>
+  <text x="210" y="105" font-family="Segoe UI, Arial, sans-serif" font-size="46" font-weight="800" fill="url(#numGrad1)" text-anchor="middle">4+</text>
+  <text x="210" y="140" font-family="JetBrains Mono, monospace" font-size="14" fill="#c3cadd" text-anchor="middle">Years Building Production</text>
+  <text x="210" y="160" font-family="JetBrains Mono, monospace" font-size="14" fill="#c3cadd" text-anchor="middle">Laravel Systems</text>
+
+  <!-- card 2 -->
+  <g filter="url(#cardShadow)">
+    <rect x="430" y="30" width="340" height="160" rx="20" fill="url(#glass2)" stroke="#ffffff" stroke-opacity="0.12"/>
+  </g>
+  <text x="600" y="105" font-family="Segoe UI, Arial, sans-serif" font-size="46" font-weight="800" fill="url(#numGrad2)" text-anchor="middle">50K+</text>
+  <text x="600" y="140" font-family="JetBrains Mono, monospace" font-size="14" fill="#c3cadd" text-anchor="middle">Government Employees</text>
+  <text x="600" y="160" font-family="JetBrains Mono, monospace" font-size="14" fill="#c3cadd" text-anchor="middle">Served via FCI HRMS</text>
+
+  <!-- card 3 -->
+  <g filter="url(#cardShadow)">
+    <rect x="820" y="30" width="340" height="160" rx="20" fill="url(#glass2)" stroke="#ffffff" stroke-opacity="0.12"/>
+  </g>
+  <text x="990" y="105" font-family="Segoe UI, Arial, sans-serif" font-size="46" font-weight="800" fill="url(#numGrad3)" text-anchor="middle">35%</text>
+  <text x="990" y="140" font-family="JetBrains Mono, monospace" font-size="14" fill="#c3cadd" text-anchor="middle">Manual Effort Reduced</text>
+  <text x="990" y="160" font-family="JetBrains Mono, monospace" font-size="14" fill="#c3cadd" text-anchor="middle">in Leave Management</text>
+</svg>

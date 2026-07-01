@@ -1,0 +1,131 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0d16"/>
+      <stop offset="55%" stop-color="#0d1220"/>
+      <stop offset="100%" stop-color="#141a2b"/>
+    </linearGradient>
+
+    <radialGradient id="orbRed" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff2d20" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#ff2d20" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbAmber" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f5a623" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#f5a623" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbBlue" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#6d7bff" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#6d7bff" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="glassFill" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.09"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02"/>
+    </linearGradient>
+
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff6a55"/>
+      <stop offset="100%" stop-color="#f5a623"/>
+    </linearGradient>
+
+    <linearGradient id="cardDB" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#0ea5e9" stop-opacity="0.55"/>
+    </linearGradient>
+    <linearGradient id="cardLaravel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff5c46" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ff2d20" stop-opacity="0.6"/>
+    </linearGradient>
+    <linearGradient id="cardAI" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffd166" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#f5a623" stop-opacity="0.6"/>
+    </linearGradient>
+
+    <filter id="softBlurLg" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="45"/>
+    </filter>
+    <filter id="softBlurMd" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <filter id="glassBlur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+    <filter id="dropShadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+    <filter id="textGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M 42 0 L 0 0 0 42" fill="none" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- background -->
+  <rect width="1200" height="360" fill="url(#bg)"/>
+  <rect width="1200" height="360" fill="url(#grid)"/>
+
+  <!-- glow orbs -->
+  <circle cx="120" cy="60" r="220" fill="url(#orbRed)" filter="url(#softBlurLg)"/>
+  <circle cx="980" cy="300" r="200" fill="url(#orbAmber)" filter="url(#softBlurLg)"/>
+  <circle cx="700" cy="30" r="160" fill="url(#orbBlue)" filter="url(#softBlurLg)"/>
+
+  <!-- main glass panel -->
+  <rect x="40" y="40" width="700" height="280" rx="24" fill="url(#glassFill)" stroke="#ffffff" stroke-opacity="0.14" stroke-width="1.2" filter="url(#dropShadow)"/>
+
+  <!-- status pill -->
+  <rect x="70" y="70" width="180" height="30" rx="15" fill="#ffffff" fill-opacity="0.06" stroke="#34d399" stroke-opacity="0.4"/>
+  <circle cx="88" cy="85" r="4" fill="#34d399"/>
+  <text x="100" y="90" font-family="JetBrains Mono, monospace" font-size="12" fill="#8fe3c0">Open to opportunities</text>
+
+  <!-- name -->
+  <text x="70" y="160" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="700" fill="#f4f6fb" filter="url(#textGlow)">Rohit Kumar Patel</text>
+
+  <!-- title -->
+  <text x="70" y="196" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="600" fill="url(#titleGrad)">AI-Integrated Backend Engineer</text>
+
+  <!-- tagline -->
+  <text x="70" y="224" font-family="JetBrains Mono, monospace" font-size="13" fill="#9aa4bb">Laravel · LLM APIs · RAG-Ready Systems · 4+ Years Shipping Production Code</text>
+
+  <!-- skill pills -->
+  <g font-family="JetBrains Mono, monospace" font-size="12" fill="#cfd6e6">
+    <rect x="70" y="252" width="62" height="26" rx="13" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.1"/>
+    <text x="84" y="269">PHP</text>
+
+    <rect x="140" y="252" width="82" height="26" rx="13" fill="#ffffff" fill-opacity="0.05" stroke="#ff2d20" stroke-opacity="0.35"/>
+    <text x="154" y="269">Laravel</text>
+
+    <rect x="230" y="252" width="104" height="26" rx="13" fill="#ffffff" fill-opacity="0.05" stroke="#f5a623" stroke-opacity="0.35"/>
+    <text x="244" y="269">OpenAI API</text>
+
+    <rect x="342" y="252" width="70" height="26" rx="13" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.1"/>
+    <text x="356" y="269">MySQL</text>
+
+    <rect x="420" y="252" width="96" height="26" rx="13" fill="#ffffff" fill-opacity="0.05" stroke="#38bdf8" stroke-opacity="0.35"/>
+    <text x="434" y="269">REST API</text>
+  </g>
+
+  <!-- isometric 3D stack (right side) -->
+  <g filter="url(#dropShadow)">
+    <g transform="translate(880,150) rotate(-10) skewX(-6)">
+      <rect x="-90" y="70" width="220" height="64" rx="14" fill="url(#cardDB)" stroke="#ffffff" stroke-opacity="0.25"/>
+      <text x="-70" y="107" font-family="JetBrains Mono, monospace" font-size="14" fill="#04202b" font-weight="600">MySQL · MariaDB</text>
+    </g>
+    <g transform="translate(895,105) rotate(-10) skewX(-6)">
+      <rect x="-90" y="35" width="220" height="64" rx="14" fill="url(#cardLaravel)" stroke="#ffffff" stroke-opacity="0.3"/>
+      <text x="-70" y="72" font-family="JetBrains Mono, monospace" font-size="14" fill="#2a0500" font-weight="700">Laravel · REST APIs</text>
+    </g>
+    <g transform="translate(910,60) rotate(-10) skewX(-6)">
+      <rect x="-90" y="0" width="220" height="64" rx="14" fill="url(#cardAI)" stroke="#ffffff" stroke-opacity="0.3"/>
+      <text x="-70" y="37" font-family="JetBrains Mono, monospace" font-size="14" fill="#332000" font-weight="700">AI &amp; LLM Layer</text>
+    </g>
+  </g>
+
+  <text x="880" y="305" font-family="JetBrains Mono, monospace" font-size="12" fill="#6b7488" text-anchor="middle">production stack, layered</text>
+</svg>
