@@ -13,15 +13,21 @@
 
 ## 👋 About Me
 
-I engineer the backbone most products never think about — until it breaks. Over **4+ years**, I've built Laravel systems that run at real institutional scale, then pushed further: wiring LLMs directly into those systems so they don't just serve data, they *reason* over it.
+I'm a **Software Engineer with 4+ years of experience** specializing in **PHP, Laravel, and Lumen**, building scalable enterprise web applications and RESTful APIs.
 
-- 🏛️ Built the Leave Management core of a national HRMS serving **50,000+ government employees**
-- 🤖 Shipped AI-assisted modules on **OpenAI-compatible APIs** — content generation, summarization, context-aware responses — inside production Laravel apps
-- ⚙️ Designed a live pricing engine for enterprise materials manufacturing (Momentive), replacing manual configuration end to end
-- 🧠 Actively pushing into **RAG pipelines, agentic workflows, and vector search** — where backend engineering is heading next
-- 🎯 I optimize for systems that don't fall over at 2am, not just demos that impress in a meeting
+My experience includes developing secure backend systems, database optimization, third-party API integrations, and AI-powered features using **Laravel AI SDK** and **OpenAI APIs**.
 
-> ⚡ *"Anyone can make it work. I make it work at scale, under load, six months after I've moved on to the next feature."*
+### Highlights
+
+- 💻 4+ years of experience in PHP & Laravel development
+- 🏛️ Built the Leave Management module for **FCI HRMS**, supporting **50,000+ employees**
+- 🤖 Integrated AI-powered features using **Laravel AI SDK** and **OpenAI APIs**
+- ⚡ Developed scalable RESTful APIs and backend services
+- 🗄️ Optimized MySQL databases and SQL queries for enterprise applications
+- 🏭 Designed an enterprise Product Pricing System for **Momentive WOC**
+- 🌱 Currently expanding my frontend skills with **React.js**
+
+> *Passionate about building scalable backend systems that are secure, maintainable, and production-ready.*
 
 <br/>
 
@@ -31,23 +37,31 @@ I engineer the backbone most products never think about — until it breaks. Ove
 
 <br/>
 
-## 🤖 Where I Sit on the AI Curve
+## 🛠 Tech Stack
 
-RAG, agentic systems, and multi-model orchestration aren't a separate track anymore — they're where backend engineering is going. Here's an honest split of what I've shipped vs. what I'm building toward:
+### Backend
+PHP • Laravel • Lumen • RESTful APIs • Backend Development
 
-<table>
-<tr>
-<td valign="top" width="50%">
+### Frontend
+HTML5 • CSS3 • Bootstrap • JavaScript • jQuery • AJAX • React.js (Exposure)
 
-**✅ Shipped in Production**
-- Laravel AI SDK integration
-- OpenAI-compatible API integration
-- Prompt engineering for enterprise workflows
-- Context-aware conversational features
-- AI-assisted content generation & summarization
+### Database
+MySQL • MariaDB • SQL Optimization
 
-</td>
-<td valign="top" width="50%">
+### AI
+Laravel AI SDK • OpenAI API • Prompt Engineering • AI Integration • AI-powered Workflow Automation
+
+### Architecture
+OOP • MVC Architecture • SOLID Principles • Microservices
+
+### Tools
+Git • GitHub • GitLab • Composer • Postman • Jira • CI/CD
+
+### Servers
+Apache • Nginx • Linux • LAMP Stack
+
+### Cloud
+AWS (Familiar)
 
 **🔜 Actively Building Toward**
 - RAG pipelines (vector search + retrieval)
@@ -62,21 +76,27 @@ RAG, agentic systems, and multi-model orchestration aren't a separate track anym
 
 <br/>
 
-## 🛠️ Tech Stack
+## 💼 Skills
 
 <p align="left">
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
-  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
-  <img src="https://img.shields.io/badge/Lumen-E64A19?style=for-the-badge&logo=laravel&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" />
-  <img src="https://img.shields.io/badge/OpenAI%20API-412991?style=for-the-badge&logo=openai&logoColor=white" />
-  <img src="https://img.shields.io/badge/REST%20API-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Composer-885630?style=for-the-badge&logo=composer&logoColor=white" />
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
+<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
+<img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white"/>
+<img src="https://img.shields.io/badge/Lumen-E64A19?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/REST_API-009688?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+<img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+<img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white"/>
+<img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white"/>
+<img src="https://img.shields.io/badge/React.js-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
+<img src="https://img.shields.io/badge/OpenAI_API-412991?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Laravel_AI_SDK-FF2D20?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"/>
+<img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman"/>
+<img src="https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=apache"/>
+<img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx"/>
+<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
 </p>
 
 <br/>
